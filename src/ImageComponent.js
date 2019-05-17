@@ -38,11 +38,11 @@ const cont = {
 class ImageComponent extends React.Component {
   state = {
     openDialog: false,
-    openGroundtruth: false,
-    openPredicted: false,
-    openObject: false,
-    openAttribute: false,
-    openRelation: false,
+    openGroundtruth: true,
+    openPredicted: true,
+    openObject: true,
+    openAttribute: true,
+    openRelation: true,
   }
 
   render() {
