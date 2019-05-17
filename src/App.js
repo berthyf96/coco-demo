@@ -6,7 +6,6 @@ import ImageComponent from './ImageComponent';
 
 import photos from './all_images.json';
 
-
 function App() {
   return (
     <div className="App">
