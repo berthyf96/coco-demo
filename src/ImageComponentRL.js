@@ -89,7 +89,7 @@ class ImageComponentRL extends React.Component {
               button 
               onClick={() => {this.setState(state => ({ openRlCs: !this.state.openRlCs }));}}
             >
-              <ListItemText primary="no_rl"/>
+              <ListItemText primary="rl_cs"/>
               {this.state.openRlCs ? <ExpandLess /> : <ExpandMore />}
             </ListItem>
             <Collapse in={this.state.openRlCs} timeout="auto" unmountOnExit>
@@ -105,7 +105,7 @@ class ImageComponentRL extends React.Component {
               button 
               onClick={() => {this.setState(state => ({ openRlCsu: !this.state.openRlCsu }));}}
             >
-              <ListItemText primary="no_rl"/>
+              <ListItemText primary="rl_csu"/>
               {this.state.openRlCsu ? <ExpandLess /> : <ExpandMore />}
             </ListItem>
             <Collapse in={this.state.openRlCsu} timeout="auto" unmountOnExit>
@@ -121,7 +121,7 @@ class ImageComponentRL extends React.Component {
               button 
               onClick={() => {this.setState(state => ({ openRlC: !this.state.openRlC }));}}
             >
-              <ListItemText primary="no_rl"/>
+              <ListItemText primary="rl_c"/>
               {this.state.openRlC ? <ExpandLess /> : <ExpandMore />}
             </ListItem>
             <Collapse in={this.state.openRlC} timeout="auto" unmountOnExit>
